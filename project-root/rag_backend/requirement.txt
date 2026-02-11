@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+torch   # if using local HF models
+transformers
+sentence-transformers
+faiss-cpu        # or faiss-gpu if on GPU
+PyMuPDF          # pip name: pymupdf
+aiofiles
+numpy
+scikit-learn     # optional (cosine sim)
+fpdf
